@@ -6,5 +6,7 @@ import (
 )
 
 func main() {
-	log.Println(debug.ReadBuildInfo())
+	deb, _ := debug.ReadBuildInfo()
+	log.Println(deb)
+	log.Println("second commit")
 }
